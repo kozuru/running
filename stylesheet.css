@@ -10,7 +10,7 @@ body{
 }
 /*text display css*/
 .text-animation{
-   color: #111;
+   color: #000;
    font-size:26px;
    font-weight:800;
    font-family:serif;
@@ -31,12 +31,12 @@ body{
 }
 @keyframes glow {
   0%, 100% {
-    color: #FFF;
+    color: #fff;
     text-shadow: 0 0 10px #0652DD, 0 0 50px #0652DD, 0 0 100px #0652DD;
   }
 
   10%, 90% {
-    color: #111;
+    color: #000;
     text-shadow: none;
   }
 }
