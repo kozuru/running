@@ -18,7 +18,7 @@ body{
 }
 .text-container > span ,.text-container1 > span{
   text-transform: uppercase;
-  animation: glow 1.95s ease-in-out infinite;
+  animation: glow 1.5s ease-in-out infinite;
 }
 .text-container {
   margin-top:325px;
@@ -44,60 +44,60 @@ body{
 }
 
 .text-container > span:nth-child(2) {
-	animation-delay: 0.25s;
+	animation-delay: 0.20s;
 }
 
 .text-container > span:nth-child(3) {
-	animation-delay: 0.5s;
+	animation-delay: 0.4s;
 }
 
 .text-container > span:nth-child(4) {
-	animation-delay: 0.75s;
+	animation-delay: 0.6s;
 }
 
 .text-container > span:nth-child(5) {
-	animation-delay: 1s;
+	animation-delay: 0.8s;
 }
 
 .text-container > span:nth-child(6) {
-	animation-delay: 1.25s;
+	animation-delay: 1.0s;
 }
 
 .text-container > span:nth-child(7) {
-	animation-delay: 1.5s;
+	animation-delay: 1.2s;
 }
 .text-container > span:nth-child(8) {
-	animation-delay: 1.75s;
+	animation-delay: 1.4s;
 }
 .text-container1 > span:nth-child(1) {
 	animation-delay: 0.01s;
 }
 
 .text-container1 > span:nth-child(2) {
-	animation-delay: 0.25s;
+	animation-delay: 0.2s;
 }
 
 .text-container1 > span:nth-child(3) {
-	animation-delay: 0.5s;
+	animation-delay: 0.4s;
 }
 
 .text-container1 > span:nth-child(4) {
-	animation-delay: 0.75s;
+	animation-delay: 0.6s;
 }
 
 .text-container1 > span:nth-child(5) {
-	animation-delay: 1s;
+	animation-delay: 0.8s;
 }
 
 .text-container1 > span:nth-child(6) {
-	animation-delay: 1.25s;
+	animation-delay: 1.0s;
 }
 
 .text-container1 > span:nth-child(7) {
-	animation-delay: 1.5s;
+	animation-delay: 1.2s;
 }
 .text-container1 > span:nth-child(8) {
-	animation-delay: 1.75s;
+	animation-delay: 1.4s;
 }
 /**/
 header a{
@@ -323,7 +323,7 @@ header a{
   font-size: 16px;
 }
 .text-animation {
-  transform:scale(0.65);
+  transform:scale(0.70);
   font-size:22px;
 }
 
