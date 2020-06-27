@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 body{
   margin:0 auto;
   padding:0;
@@ -6,7 +9,96 @@ body{
   background:#000;
 }
 /*text display css*/
+.text-animation{
+   color: #111;
+   font-size:26px;
+   font-weight:800;
+   font-family: 'Baloo Thambi', cursive;
+   letter-spacing: -7px;
+}
+.text-container > span ,.text-container1 > span{
+  text-transform: uppercase;
+  animation: glow 1.95s ease-in-out infinite;
+}
+.text-container {
+  margin-top:325px;
+  margin-left:430px;
+}
+.text-container1{
+  margin-top:-41px;
+  margin-left:798px;
+}
+@keyframes glow {
+  0%, 100% {
+    color: #FFF;
+    text-shadow: 0 0 10px #0652DD, 0 0 50px #0652DD, 0 0 100px #0652DD;
+  }
 
+  10%, 90% {
+    color: #111;
+    text-shadow: none;
+  }
+}
+.text-container > span:nth-child(1) {
+	animation-delay: 0.01s;
+}
+
+.text-container > span:nth-child(2) {
+	animation-delay: 0.25s;
+}
+
+.text-container > span:nth-child(3) {
+	animation-delay: 0.5s;
+}
+
+.text-container > span:nth-child(4) {
+	animation-delay: 0.75s;
+}
+
+.text-container > span:nth-child(5) {
+	animation-delay: 1s;
+}
+
+.text-container > span:nth-child(6) {
+	animation-delay: 1.25s;
+}
+
+.text-container > span:nth-child(7) {
+	animation-delay: 1.5s;
+}
+.text-container > span:nth-child(8) {
+	animation-delay: 1.75s;
+}
+.text-container1 > span:nth-child(1) {
+	animation-delay: 0.01s;
+}
+
+.text-container1 > span:nth-child(2) {
+	animation-delay: 0.25s;
+}
+
+.text-container1 > span:nth-child(3) {
+	animation-delay: 0.5s;
+}
+
+.text-container1 > span:nth-child(4) {
+	animation-delay: 0.75s;
+}
+
+.text-container1 > span:nth-child(5) {
+	animation-delay: 1s;
+}
+
+.text-container1 > span:nth-child(6) {
+	animation-delay: 1.25s;
+}
+
+.text-container1 > span:nth-child(7) {
+	animation-delay: 1.5s;
+}
+.text-container1 > span:nth-child(8) {
+	animation-delay: 1.75s;
+}
 /**/
 header a{
   color:#fff;
@@ -14,10 +106,10 @@ header a{
   margin-left:150px;
 }
 #woman{
-  height:210px;
+  height:208px;
   width:auto;
   position:relative;
-  top:-76px;
+  top:-183px;
   left:62%;
 }
 #man{
@@ -36,7 +128,7 @@ header a{
   background: #222;
   color: #fff;
   padding: 8px;
-  width: 110px;
+  width: 138px;
   height: auto;
 }
 .hms {
@@ -181,13 +273,13 @@ header a{
 }
 /*歩数計　css*/
 .container {
-  margin-top:20px;
+  margin-top:-90px;
   margin-left:600px;
 
 }
 
 .show {
-  transition: all 0.1s ease-in;
+  transition: all 0.001s linear;
   color: #fff;
   font-size: 23px;
   z-index:2;
@@ -198,12 +290,12 @@ header a{
 
 @media(max-width:670px){
   .time{
- transform:scale(0.65);
+ transform:scale(0.5);
  left:33%;
   }
 #woman{
   transform:scale(0.555);
-  top:-130px;
+  top:-144px;
   left:15%;
 }
 #man{
@@ -223,22 +315,24 @@ header a{
   left:42%;
 }
 .container {
-  margin-top:-78px;
+  margin-top:-84px;
   margin-left:161px;
 
 }
 .show {
   font-size: 16px;
 }
-.animations {
+.text-animation {
   transform:scale(0.6);
 }
-.forword,.reverse{
-  top:330px;
-  left:0%;
+
+.text-container {
+  margin-top:220px;
+  margin-left:-239px;
 }
-.forword1,.reverse1{
-  top:330px;
-  left:-25%;
+.text-container1{
+  margin-top:-33px;
+  margin-left:8px;
 }
+
 }
