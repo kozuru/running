@@ -111,6 +111,7 @@ header a{
   position:relative;
   top:-183px;
   left:62%;
+  z-index:-2;
 }
 #man{
   height:234px;
@@ -118,6 +119,7 @@ header a{
   position:absolute;
   top:176px;
   left:33%;
+  z-index:-2;
 }
 
 /*digital clock css*/
