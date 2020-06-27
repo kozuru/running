@@ -324,6 +324,7 @@ header a{
 }
 .text-animation {
   transform:scale(0.65);
+  font-size:22px;
 }
 
 .text-container {
