@@ -35,14 +35,23 @@ body{
 .forword  span,.forword1  span{
   text-transform: uppercase;
   animation: glow-forword 2.6s ease infinite;
-
+ -webkit-animation: glow-forword 2.6s ease infinite;
 }
 .reverse span,.reverse1 span  {
   text-transform: uppercase;
   animation: glow-reverse 2.6s ease  infinite;
-
+  -webkit-animation: glow-reverse 2.6s ease  infinite;
 }
 @keyframes glow-forword{
+   0%,100%{ color:#fff;
+  text-shadow: 0 0 10px #0652DD, 0 0 50px #0652DD, 0 0 100px #0652DD,0 0 200px #0652DD,0 0 400px #0652DD,0 0 800px #0652DD ;
+
+  }
+  10%,90%{ color:#000;
+  opacity:0;
+  }
+}
+@-webkit-keyframes glow-forword{
    0%,100%{ color:#fff;
   text-shadow: 0 0 10px #0652DD, 0 0 50px #0652DD, 0 0 100px #0652DD,0 0 200px #0652DD,0 0 400px #0652DD,0 0 800px #0652DD ;
 
@@ -60,7 +69,15 @@ body{
   10%,90%{ color:#000;
   opacity:0;
   }
+}
+@-webkit-keyframes glow-reverse{
+   0%,100%{ color:#fff;
+   text-shadow: 0 0 10px #0652DD, 0 0 50px #0652DD, 0 0 100px #0652DD,0 0 200px #0652DD,0 0 400px #0652DD,0 0 800px #0652DD ;
 
+  }
+  10%,90%{ color:#000;
+  opacity:0;
+  }
 }
 .forword span:nth-of-type(9) {
 	animation-delay: 0.01s;
@@ -449,6 +466,4 @@ header a{
   top:330px;
   left:-25%;
 }
-
-
 }
