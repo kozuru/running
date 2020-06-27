@@ -66,7 +66,7 @@ const show = document.querySelector('.js-count'),
       number = Number(show.innerHTML) + 1;
 
 let   counter = 0,
-      delay = 0.1,
+      delay = 0.005,
       x = number/2,
       y = 0;
 
