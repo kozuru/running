@@ -19,6 +19,7 @@ body{
 .text-container > span ,.text-container1 > span{
   text-transform: uppercase;
   animation: glow 1.5s ease-in-out infinite;
+  z-index:2;
 }
 .text-container {
   margin-top:325px;
@@ -325,17 +326,18 @@ header a{
   font-size: 16px;
 }
 .text-animation {
-  transform:scale(0.70);
-  font-size:22px;
+  transform:scale(0.72);
+  font-size:24px;
+  letter-spacing:-5px;
 }
 
 .text-container {
-  margin-top:230px;
-  margin-left:-179px;
+  margin-top:235px;
+  margin-left:-159px;
 }
 .text-container1{
-  margin-top:-23px;
-  margin-left:68px;
+  margin-top:-18px;
+  margin-left:88px;
 }
 
 }
